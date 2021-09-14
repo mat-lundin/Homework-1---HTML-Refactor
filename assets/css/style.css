@@ -1,13 +1,16 @@
+/* global sizing, padding, and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* default background color for body */
 body {
     background-color: #d9dcd6;
 }
 
+/* header default colors, shape, and font */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* header logo inline and font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* specific color for "seo" in logo */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* location, font, and size of navigation section */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ nav {
     font-size: 20px;
 }
 
+/* remove bullets from ul */
 nav ul {
     list-style-type: none;
 }
 
+/* show navigation links inline */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color all anchors/links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* size for all paragraph text */
 p {
     font-size: 16px;
 }
 
+/* size ad location of main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* position content images left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* position content images right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* position and size of content sections */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* specs for benefits content in the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* specs for "Lead Generation" in the aside */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* specs for "Brand Awareness" in the aside */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* specs for "Cost Management" in the aside */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* specs for Lead Generation content in the aside */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* specs for Brand Awareness content in the aside */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* specs for Cost Management content in the aside */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* position and size for Lead Generation image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* position and size for Brand Awareness image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* position and size for Cost Management image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* specs for Search Engine Optimization block */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* specs for Online Reputation Management block */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* specs for Social Media Marketing block */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* size of Search Engine Optimization image */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* size of Online Reputation Management image */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* size of Social Media Marketing image */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Search Engine Optimization header */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Online Reputation Management header */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Social Media Marketing header */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer defaults*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ footer {
     text-align: center;
 }
 
+/* footer smaller text */
 footer h2 {
     font-size: 20px;
 }
